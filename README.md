@@ -1,4 +1,4 @@
-# 10 minute school - IELTS course page
+# 10 minutes school - IELTS course page
 
 ## Installation:
 
