@@ -1,4 +1,4 @@
-# Next.Js-Authentication-Starter-Pack
+# 10 minute school - IELTS course page
 
 ## Installation:
 
