@@ -1,5 +1,6 @@
 import Image from "next/image";
 import LanguageSwitcher from "./LanguageSwitcher";
+import Link from "next/link";
 
 const StickyNav = ({ currentLang }: { currentLang: string }) => {
   return (
@@ -7,7 +8,7 @@ const StickyNav = ({ currentLang }: { currentLang: string }) => {
       <div className="container mx-auto flex gap-5">
         {/* logo */}
         <div className="items-center hidden gap-9 md:flex">
-          <a className="h-[27px] w-[100px]" href="/">
+          <Link className="h-[27px] w-[100px]" href="/">
             <Image
               alt="10ms"
               src="https://cdn.10minuteschool.com/images/svg/10mslogo-svg.svg"
@@ -15,7 +16,7 @@ const StickyNav = ({ currentLang }: { currentLang: string }) => {
               height="27"
               style={{ color: "transparent" }}
             />
-          </a>
+          </Link>
         </div>
 
         {/* search box */}
@@ -43,7 +44,7 @@ const StickyNav = ({ currentLang }: { currentLang: string }) => {
         {/* menu */}
 
         <div className="flex items-center gap-4">
-          <a
+          <Link
             href=""
             className="text-gray-600 text-[14px] font-semibold flex hover:text-green-600 relative drp1"
           >
@@ -51,10 +52,10 @@ const StickyNav = ({ currentLang }: { currentLang: string }) => {
             <svg
               stroke="currentColor"
               fill="none"
-              stroke-width="2"
+              strokeWidth="2"
               viewBox="0 0 24 24"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
               className="mt-0"
               height="20"
               width="20"
@@ -93,9 +94,9 @@ const StickyNav = ({ currentLang }: { currentLang: string }) => {
                       <g mask="url(#mask0_19054_48978)">
                         <path
                           fill="#FF9D99"
-                          fill-rule="evenodd"
+                          fillRule="evenodd"
                           d="M13.39 5.854a1.608 1.608 0 100-3.216 1.608 1.608 0 000 3.216zm0 1.378a2.986 2.986 0 100-5.972 2.986 2.986 0 000 5.972z"
-                          clip-rule="evenodd"
+                          clipRule="evenodd"
                         ></path>
                         <path
                           fill="#FF9D99"
@@ -131,9 +132,9 @@ const StickyNav = ({ currentLang }: { currentLang: string }) => {
                     >
                       <path
                         fill="#F3D382"
-                        fill-rule="evenodd"
+                        fillRule="evenodd"
                         d="M21.508 8.933a2.952 2.952 0 100-5.903 2.952 2.952 0 000 5.903zm0 2.53a5.482 5.482 0 100-10.963 5.482 5.482 0 000 10.963z"
-                        clip-rule="evenodd"
+                        clipRule="evenodd"
                       ></path>
                       <path
                         fill="#F3D382"
@@ -179,9 +180,9 @@ const StickyNav = ({ currentLang }: { currentLang: string }) => {
                       <g mask="url(#mask0_10618_73943)">
                         <path
                           fill="#67D6C5"
-                          fill-rule="evenodd"
+                          fillRule="evenodd"
                           d="M24.51 9.933a2.952 2.952 0 100-5.903 2.952 2.952 0 000 5.903zm0 2.53a5.482 5.482 0 100-10.963 5.482 5.482 0 000 10.963z"
-                          clip-rule="evenodd"
+                          clipRule="evenodd"
                         ></path>
                         <path
                           fill="#67D6C5"
@@ -203,7 +204,7 @@ const StickyNav = ({ currentLang }: { currentLang: string }) => {
                   </span>
                 </li>
                 <li
-                  className=" block
+                  className="
                       flex items-center py-3 pl-1 pr-4 rounded cursor-pointer hover:bg-gray-100"
                 >
                   <span className="mr-4">
@@ -228,9 +229,9 @@ const StickyNav = ({ currentLang }: { currentLang: string }) => {
                       <g mask="url(#mask0_10618_73965)">
                         <path
                           fill="#FBB986"
-                          fill-rule="evenodd"
+                          fillRule="evenodd"
                           d="M24.51 9.933a2.952 2.952 0 10-.001-5.903 2.952 2.952 0 000 5.903zm0 2.53a5.482 5.482 0 100-10.963 5.482 5.482 0 000 10.963z"
-                          clip-rule="evenodd"
+                          clipRule="evenodd"
                         ></path>
                         <path
                           fill="#FBB986"
@@ -277,9 +278,9 @@ const StickyNav = ({ currentLang }: { currentLang: string }) => {
                       <g mask="url(#mask0_10618_73989)">
                         <path
                           fill="#F3D382"
-                          fill-rule="evenodd"
+                          fillRule="evenodd"
                           d="M24.51 9.933a2.952 2.952 0 10-.001-5.903 2.952 2.952 0 000 5.903zm0 2.53a5.482 5.482 0 100-10.963 5.482 5.482 0 000 10.963z"
-                          clip-rule="evenodd"
+                          clipRule="evenodd"
                         ></path>
                         <path
                           fill="#F3D382"
@@ -326,9 +327,9 @@ const StickyNav = ({ currentLang }: { currentLang: string }) => {
                       <g mask="url(#mask0_10618_74012)">
                         <path
                           fill="#82AEFB"
-                          fill-rule="evenodd"
+                          fillRule="evenodd"
                           d="M24.51 9.933a2.952 2.952 0 10-.001-5.903 2.952 2.952 0 000 5.903zm0 2.53a5.482 5.482 0 100-10.963 5.482 5.482 0 000 10.963z"
-                          clip-rule="evenodd"
+                          clipRule="evenodd"
                         ></path>
                         <path
                           fill="#82AEFB"
@@ -351,23 +352,23 @@ const StickyNav = ({ currentLang }: { currentLang: string }) => {
                 </li>
               </ul>
             </div>
-          </a>
-          <a href="" className="text-gray-600 text-[14px] font-semibold">
-            <a href=""></a>
+          </Link>
+          <Link href="" className="text-gray-600 text-[14px] font-semibold">
+            <Link href=""></Link>
             Skills
-          </a>
-          <a href="" className="text-gray-600 text-[14px] font-semibold">
+          </Link>
+          <Link href="" className="text-gray-600 text-[14px] font-semibold">
             Admission
-          </a>
-          <a href="" className="text-gray-600 text-[14px] font-semibold">
+          </Link>
+          <Link href="" className="text-gray-600 text-[14px] font-semibold">
             Online Batch
-          </a>
-          <a href="" className="text-gray-600 text-[14px] font-semibold">
+          </Link>
+          <Link href="" className="text-gray-600 text-[14px] font-semibold">
             Enlish Center
-          </a>
-          <a href="" className="text-gray-600 text-[14px] font-semibold">
+          </Link>
+          <Link href="" className="text-gray-600 text-[14px] font-semibold">
             More{" "}
-          </a>
+          </Link>
         </div>
 
         <div className="flex items-center gap-5">
@@ -380,7 +381,7 @@ const StickyNav = ({ currentLang }: { currentLang: string }) => {
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <g clip-path="url(#clip0_9494_69309)">
+              <g clipPath="url(#clip0_9494_69309)">
                 <path
                   d="M8.4129 12.71C8.34261 12.8852 8.17283 13 7.98407 13C7.65462 13 7.43101 12.6651 7.5573 12.3608L10.0079 6.45676C10.1226 6.18024 10.3926 6 10.692 6C10.9914 6 11.2613 6.18024 11.3761 6.45676L13.8267 12.3608C13.953 12.6651 13.7294 13 13.3999 13C13.2112 13 13.0414 12.8852 12.9711 12.71L10.7344 7.13611C10.7275 7.11878 10.7107 7.10742 10.692 7.10742C10.6733 7.10742 10.6565 7.11878 10.6496 7.13611L8.4129 12.71ZM8.66745 10.6416C8.66745 10.434 8.83578 10.2656 9.04342 10.2656H12.3406C12.5482 10.2656 12.7165 10.434 12.7165 10.6416C12.7165 10.8492 12.5482 11.0176 12.3406 11.0176H9.04342C8.83578 11.0176 8.66745 10.8492 8.66745 10.6416Z"
                   fill="#6B7280"
@@ -404,27 +405,27 @@ const StickyNav = ({ currentLang }: { currentLang: string }) => {
             <span>EN</span>
           </button> */}
           <LanguageSwitcher currentLang={currentLang} />
-          <a
+          <Link
             className="items-center hidden gap-1 text-green-600 md:flex"
             href="tel:16910"
           >
             <svg
               stroke="currentColor"
               fill="currentColor"
-              stroke-width="0"
+              strokeWidth="0"
               viewBox="0 0 16 16"
               height="1em"
               width="1em"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                fill-rule="evenodd"
+                fillRule="evenodd"
                 d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"
               ></path>
             </svg>
             <span className="inline-block">16910</span>
-          </a>
-          <a
+          </Link>
+          <Link
             className="flex items-center px-3 py-1 text-white rounded-md bg-green-600 md:px-6"
             href="/auth/login/?returnUrl=%2Fen%2Fproduct%2Fielts-course%2F"
           >
@@ -434,7 +435,7 @@ const StickyNav = ({ currentLang }: { currentLang: string }) => {
             >
               লগ-ইন
             </span>
-          </a>
+          </Link>
         </div>
       </div>
     </div>

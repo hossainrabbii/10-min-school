@@ -1,8 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Navbar from "@/components/shared/Navbar";
-import StickyNavbar from "@/components/shared/StickyNavbar";
-import StickyNav from "@/components/shared/StickyNav";
 import Footer from "@/components/shared/Footer";
 
 export const metadata: Metadata = {

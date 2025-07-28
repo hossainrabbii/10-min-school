@@ -11,10 +11,11 @@ export default function ButtonSlider() {
   const buttons = [
     { label: "Course Instructor", targetId: "instructor" },
     { label: "How the course is liad out", targetId: "course-liad" },
-    { label: "Learn", targetId: "learn" },
-    { label: "Course Feature", targetId: "course-feature" },
-    { label: "Free Items", targetId: "free-items" },
+    { label: "What you will learn by doing the course", targetId: "learn" },
     { label: "Course Details", targetId: "course-details" },
+
+    { label: "Course Exclusive Feature", targetId: "course-feature" },
+    { label: "Free Items", targetId: "free-items" },
   ];
 
   const checkScrollPosition = () => {

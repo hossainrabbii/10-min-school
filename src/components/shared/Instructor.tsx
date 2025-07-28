@@ -5,7 +5,6 @@ import Image from "next/image";
 
 const Instructor = () => {
   const pageData = usePageData();
-
   const section = pageData?.data?.sections?.find(
     (s: any) => s.type === "instructors"
   );
