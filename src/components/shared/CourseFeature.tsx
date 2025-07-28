@@ -15,7 +15,10 @@ const CourseFeature = () => {
       <h4 className="text-[20px] font-bold mb-4">{section?.name}</h4>
       <div className="border rounded-md p-4">
         {values.map((v: any) => (
-          <div className="flex flex-col items-start justify-between gap-3 py-5 lg:flex-row">
+          <div
+            className="flex flex-col items-start justify-between gap-3 py-5 lg:flex-row"
+            key={v.id}
+          >
             <div className="flex flex-col gap-2">
               <h2
                 className="text-[14px] font-[500px] leading-[30px] text-[#111827] md:text-[16px]"
@@ -31,6 +34,7 @@ const CourseFeature = () => {
                         height="15"
                         fill="none"
                         viewBox="0 0 19 15"
+                        key={idx}
                       >
                         <path
                           fill="#6294F8"
