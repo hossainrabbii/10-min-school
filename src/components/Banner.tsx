@@ -15,7 +15,9 @@ const Banner = () => {
           />
         </a>
       </div>
-      <SkillsLanding />
+      
+        <SkillsLanding />
+    
     </div>
   );
 };

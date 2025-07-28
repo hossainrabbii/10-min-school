@@ -46,7 +46,9 @@ const HomePage = async ({
         <div className="container">
           <div className="flex flex-col md:flex-row gap-16">
             <div className="w-full md:w-3/5 py-5">
-              <ButtonSlider />
+              <div className="hidden lg:block">
+                <ButtonSlider />
+              </div>
               <div id="instructor">
                 <Instructor />
               </div>
@@ -70,7 +72,7 @@ const HomePage = async ({
               </div>
             </div>
             <div className="w-full md:w-2/5">
-              <div className="top-[100px] sticky">
+              <div className="lg:top-[100px] sticky bottom-0">
                 <VisibleEnroll />
               </div>
             </div>

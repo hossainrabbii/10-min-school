@@ -4,10 +4,10 @@ const Enroll = () => {
   return (
     <>
       <div className="px-4 py-2">
-        <div className="inline-block text-2xl font-semibold">৳3850</div>
-        <span className="ml-2 text-base font-normal md:text-xl">
+        <div className="inline-block text-2xl font-semibold">৳1000</div>
+        {/* <span className="ml-2 text-base font-normal md:text-xl">
           <del>৳5000</del>
-        </span>
+        </span> */}
         <p className="text-sm text-gray-500">1150 ৳ ছাড়</p>
         <button className="bg-green text-white px-4 py-2 mt-4 w-full bg-green-600 border-b-4 border-green-800 rounded-md hover:bg-green-800">
           Enroll

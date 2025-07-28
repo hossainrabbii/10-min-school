@@ -13,7 +13,7 @@ const Instructor = () => {
 
   return (
     <div className="container">
-      <div className="rounded-md border px-4 py-8 flex items-center gap-4 flex-col md:flex-row">
+      <div className="rounded-md border px-4 py-6 flex items-center gap-4 flex-col md:flex-row">
         <div className="max-w-[120px] max-h-[120px] rounded-full overflow-hidden">
           <Image
             src="https://cdn.10minuteschool.com/images/skills/lp/ms_onset.jpg"
@@ -22,7 +22,7 @@ const Instructor = () => {
             height="100"
           />
         </div>
-        <div className="">
+        <div className="mt-2">
           <a
             href=""
             className="flex items-center hover:text-green-500 text-[20px]"
@@ -44,7 +44,10 @@ const Instructor = () => {
             </span>
           </a>
           {values[0]?.description && (
-            <div dangerouslySetInnerHTML={{ __html: values[0].description }} />
+            <p
+              dangerouslySetInnerHTML={{ __html: values[0].description }}
+              className=""
+            ></p>
           )}
         </div>
       </div>

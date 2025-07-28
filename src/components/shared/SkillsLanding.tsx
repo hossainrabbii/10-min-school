@@ -91,7 +91,9 @@ const SkillsLanding = () => {
             <div className="p-1 hidden md:block">
               <Gallery />
             </div>
-            <Enroll />
+            <div className="hidden lg:block">
+              <Enroll />
+            </div>
           </div>
 
           <p className="justify-between hidden mt-4 text-sm text-center text-gray-400 md:flex md:flex-col lg:flex lg:flex-row">

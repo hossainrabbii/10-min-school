@@ -16,6 +16,7 @@ export default function ButtonSlider() {
 
     { label: "Course Exclusive Feature", targetId: "course-feature" },
     { label: "Free Items", targetId: "free-items" },
+    { label: "Freequently Ask Question", targetId: "faq" },
   ];
 
   const checkScrollPosition = () => {
