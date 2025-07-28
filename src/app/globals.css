@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Condensed&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+  scroll-behavior: smooth;
+}
+
+/* body {
+  font-family: "Oswald", sans-serif;
+} */
+body {
+  font-family: "Inter", sans-serif;
+}
+
+/* menu */
+.dropdown1 {
+  display: none;
+  opacity: 0;
+}
+.drp1:hover .dropdown1 {
+  display: block;
+  opacity: 1;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
